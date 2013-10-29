@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Map>
+  
+  <Location>
+    <ID>1</ID>
+    <Name>Room 1</Name>
+    <Description>This is an interesting room.</Description>
+    <Exits>
+      <S>2</S>
+    </Exits>
+  </Location>
+
+  <Location>
+    <ID>2</ID>
+    <Name>Room 2</Name>
+    <Description>This is an interesting room.</Description>
+    <Exits>
+      <N>1</N>
+      <S>3</S>
+      <E>4</E>
+    </Exits>
+  </Location>
+
+  <Location>
+    <ID>3</ID>
+    <Name>Room 3</Name>
+    <Description>This is an interesting room.</Description>
+    <Exits>
+      <N>2</N>
+      <E>5</E>
+    </Exits>
+  </Location>
+
+  <Location>
+    <ID>4</ID>
+    <Name>Room 4</Name>
+    <Description>This is an interesting room.</Description>
+    <Exits>
+      <S>5</S>
+      <W>2</W>
+    </Exits>
+  </Location>
+
+  <Location>
+    <ID>5</ID>
+    <Name>Room 5</Name>
+    <Description>This is an interesting room.</Description>
+    <Exits>
+      <N>4</N>
+      <S>6</S>
+    </Exits>
+  </Location>
+
+  <Location>
+    <ID>6</ID>
+    <Name>Room 6</Name>
+    <Description>This is an interesting room.</Description>
+    <Exits>
+      <N>5</N>
+    </Exits>
+  </Location>
+  
+</Map>
